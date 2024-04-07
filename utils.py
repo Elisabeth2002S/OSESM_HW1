@@ -39,7 +39,14 @@ a = (1,2,3,4,5,6,7,8,9,12,13,14,15,16,17,19,18)
 
 mean(a)
 
+def ms2kmh (ms): 
+    '''This function converts speed from meters per second to kilometers per hour.'''
+    return ms*3.6
 
+velocity = (1,5,10,15,30)
+
+for i in velocity:
+    print(ms2kmh(i))
 
 
 
