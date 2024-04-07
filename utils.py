@@ -39,15 +39,7 @@ a = (1,2,3,4,5,6,7,8,9,12,13,14,15,16,17,19,18)
 
 mean(a)
 
-sum, i = 0,0
-#This loop iterates from 0 to i<10, printing each value of 'i' and accumulating the sum. After that it prints "loop end" and displays the total sum.
-while i<10: 
-    print(i)
-    sum += i 
-    i += 1
-else: 
-    print("loop end")
-print("sum", sum)
+
 
 
 
