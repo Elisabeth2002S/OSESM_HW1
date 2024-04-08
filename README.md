@@ -22,7 +22,4 @@ Homework 1 of Open-Source Energy System Modelling
 
 The goal is to start a new GitHub repository and get familiar with GitHub itself. 
 
-The utils.py document houses four fundamental mathematical functions: "triangular_surface_area", "circular_surface_area", "mean", and "ms2kmh". These include computing the surface areas of triangles and circles, determining the mean of a list of numbers, and converting speed units from meters per second to kilometers per hour. Each function is documented with clear descriptions of its purpose.
-
-
 The utils.py file contains four fundamental mathematical functions: "triangular_surface_area", "circular_surface_area", "cylinder_volume", and "ms2kmh". These functions include computing the surface areas of triangles and circles, the volume of a cylinder, and converting speed units from meters per second to kilometers per hour. Each function is documented with a descriptions of its purpose.
