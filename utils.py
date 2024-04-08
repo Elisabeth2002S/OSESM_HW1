@@ -26,13 +26,13 @@ r = 18
 
 circular_surface_area (r)
 
-def mean(numbers): 
-    '''This function calculates the mean of a list of numbers.
-    Parameters:
-        numbers (list): A list of numeric values.
-    Returns:
-        float: The mean (average) of the input numbers.'''
-    return print("mean =", sum(numbers)/len(numbers))
+#def mean(numbers): 
+#    '''This function calculates the mean of a list of numbers.
+#    Parameters:
+#        numbers (list): A list of numeric values.
+#    Returns:
+#        float: The mean (average) of the input numbers.'''
+#    return print("mean =", sum(numbers)/len(numbers))
 
 
 a = (1,2,3,4,5,6,7,8,9,12,13,14,15,16,17,19,18)
