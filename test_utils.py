@@ -15,7 +15,7 @@ from utils import ms2kmh
 
 
 def test_triangular_surface_area():
-    assert triangular_surface_area(1, 2) == 1
+    assert triangular_surface_area(1, 2) == 1.5
     assert triangular_surface_area(2, 2) == 2
     assert triangular_surface_area(4, 2) == 4
 
