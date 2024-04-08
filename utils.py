@@ -35,9 +35,9 @@ circular_surface_area (r)
 #    return print("mean =", sum(numbers)/len(numbers))
 
 
-a = (1,2,3,4,5,6,7,8,9,12,13,14,15,16,17,19,18)
+#a = (1,2,3,4,5,6,7,8,9,12,13,14,15,16,17,19,18)
 
-mean(a)
+#mean(a)
 
 def ms2kmh (ms): 
     '''This function converts speed from meters per second to kilometers per hour.'''
