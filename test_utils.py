@@ -9,7 +9,7 @@ from utils import triangular_surface_area
 
 from utils import circular_surface_area
 
-#from utils import mean 
+from utils import cylinder_volume 
 
 from utils import ms2kmh
 
@@ -25,10 +25,10 @@ def test_circular_surface_area():
     assert circular_surface_area (30) == 2826.0
     
     
-#def test_mean():
-#    assert mean([1, 2, 3, 4, 5]) == 3.0
-#    assert mean([10, 20, 30, 40, 50]) == 30.0
-#    assert mean([2, 4, 6, 8, 10]) == 6.0
+def test_cylinder_volume():
+    assert cylinder_volume(1, 2) == 6.28
+    assert cylinder_volume(2, 2) == 25.12
+    assert cylinder_volume(4, 3) == 150.72
 
 
 def test_ms2kmh():

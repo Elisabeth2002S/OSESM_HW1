@@ -26,18 +26,16 @@ r = 18
 
 circular_surface_area (r)
 
-#def mean(numbers): 
-#    '''This function calculates the mean of a list of numbers.
-#    Parameters:
-#        numbers (list): A list of numeric values.
-#    Returns:
-#        float: The mean (average) of the input numbers.'''
-#    return print("mean =", sum(numbers)/len(numbers))
 
+def cylinder_volume(radius, height, pi = 3.14):
+    '''This function calculates the volume of a cylinder.'''
+    V = radius ** 2 * height * pi
+    print("cylinder_volume =", V)
+    return V
 
-#a = (1,2,3,4,5,6,7,8,9,12,13,14,15,16,17,19,18)
-
-#mean(a)
+radius = r
+height = 18
+print(cylinder_volume (r, height))
 
 def ms2kmh (ms): 
     '''This function converts speed from meters per second to kilometers per hour.'''
@@ -47,8 +45,3 @@ velocity = (1,5,10,15,30)
 
 for i in velocity:
     print(ms2kmh(i))
-
-
-
-
-
