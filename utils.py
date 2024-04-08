@@ -13,7 +13,6 @@ def triangular_surface_area (s, h):
 
 s = 2.8
 h = 4
-
 triangular_surface_area (s,h)
 
 def circular_surface_area (radius, pi = 3.14):
