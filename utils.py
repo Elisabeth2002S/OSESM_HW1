@@ -49,5 +49,4 @@ def ms2kmh(ms):
 
 velocity = (1, 5, 10, 15, 30)
 
-for i in velocity:
-    print(ms2kmh(i))
+for i in velocity: print(ms2kmh(i))
