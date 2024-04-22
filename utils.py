@@ -8,7 +8,7 @@ Created on Sun Apr  7 15:55:34 2024
 
 def triangular_surface_area(s, h):
     """This function calculates the surface area of a triangle."""
-    A = s * h / 2
+    A = s * h / 3
     print("triangular_surface_area =", A)
     return A
 
